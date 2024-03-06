@@ -29,7 +29,7 @@ services:
 
   # container requires an external mongoDB
   unifi-db:
-    image: docker.io/mongo:4.4@sha256:6968605d75f9ed587adf94ffac5c18963a3dcdd13892f91412bccfa80059265a # max supported version is 4.4
+    image: docker.io/mongo:4.4@sha256:a98d30707edecfa5d1f04ba199731967d989ebe23aa2149d0a0005bd6de1c1c3 # max supported version is 4.4
     container_name: unifi-db
     volumes:
       - /docker/docker-compose/unifi-net-app/data:/data/db
